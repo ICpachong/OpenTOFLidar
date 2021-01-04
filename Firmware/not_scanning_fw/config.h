@@ -4,17 +4,17 @@
 
 /* Includes ------------------------------------------------------------------*/
 
-#define BOARD_VERSION_2019              1
-#define BOARD_VERSION_2020              2
+#define BOARD_VERSION_2019              1 // PCB v1
+#define BOARD_VERSION_2020              2 // PCB v4
 
 #define BOARD_VERSION                   BOARD_VERSION_2020
 
 // IMPORTAINT VALUE !!!!!!!!
 // Length in mm
 #if (BOARD_VERSION == BOARD_VERSION_2019)
-#define DIST_BIN_LENGTH                 (14.5f) //PCB version 2019
+#define DEFAULT_DIST_BIN_LENGTH         (14.5f) //PCB version 2019
 #else
-#define DIST_BIN_LENGTH                 (15.5f) //PCB version 2020
+#define DEFAULT_DIST_BIN_LENGTH         (15.5f) //PCB version 2020
 #endif
 
 
